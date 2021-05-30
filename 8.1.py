@@ -1,0 +1,12 @@
+from tkinter import *
+a=Tk()
+a.title('Thông tin cá nhân')
+Label(text='Tên ',width=15).grid(row=0,column=0)
+Label(text='Nguyễn Xuân Hùng ').grid(row=0,column=1)
+Label(text='Ngành học ',width=15).grid(row=1,column=0)
+Label(text='Tự động hóa ').grid(row=1,column=1)
+Label(text='MSSV ',width=15).grid(row=2,column=0)
+Label(text='19575202160012').grid(row=2,column=1)
+Label(text='Lớp ',width=15).grid(row=3,column=0)
+Label(text='60K-Tự động hóa ').grid(row=3,column=1)
+a.mainloop()
